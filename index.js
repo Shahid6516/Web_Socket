@@ -16,6 +16,7 @@ io.on("connection", (socket) => {
   });
 });
 
+
 app.use(express.static(path.resolve("./public")));
 
 server.listen(9000, () => {
